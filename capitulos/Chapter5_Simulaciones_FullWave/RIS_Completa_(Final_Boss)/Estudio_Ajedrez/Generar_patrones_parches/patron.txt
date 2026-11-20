@@ -1,0 +1,3075 @@
+-- Script recorded on xxxxx
+application = cf.Application.GetInstance()
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle1 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle2 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle3 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle4 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle5 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle6 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle7 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle8 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle9 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle10 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle11 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle12 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle13 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle14 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle15 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-7.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle16 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle17 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle18 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle19 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle20 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle21 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle22 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle23 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle24 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle25 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle26 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle27 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle28 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle29 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle30 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle31 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-6.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle32 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle33 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle34 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle35 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle36 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle37 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle38 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle39 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle40 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle41 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle42 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle43 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle44 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle45 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle46 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle47 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-5.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle48 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle49 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle50 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle51 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle52 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle53 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle54 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle55 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle56 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle57 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle58 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle59 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle60 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle61 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle62 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle63 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-4.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle64 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle65 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle66 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle67 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle68 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle69 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle70 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle71 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle72 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle73 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle74 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle75 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle76 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle77 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle78 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle79 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-3.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle80 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle81 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle82 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle83 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle84 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle85 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle86 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle87 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle88 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle89 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle90 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle91 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle92 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle93 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle94 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle95 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-2.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle96 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle97 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle98 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle99 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle100 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle101 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle102 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle103 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle104 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle105 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle106 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle107 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle108 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle109 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle110 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle111 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-1.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle112 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle113 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle114 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle115 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle116 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle117 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle118 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle119 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle120 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle121 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle122 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle123 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle124 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle125 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle126 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle127 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "-0.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle128 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle129 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle130 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle131 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle132 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle133 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle134 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle135 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle136 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle137 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle138 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle139 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle140 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle141 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle142 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle143 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "0.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle144 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle145 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle146 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle147 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle148 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle149 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle150 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle151 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle152 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle153 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle154 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle155 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle156 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle157 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle158 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle159 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "1.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle160 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle161 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle162 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle163 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle164 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle165 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle166 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle167 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle168 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle169 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle170 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle171 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle172 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle173 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle174 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle175 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "2.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle176 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle177 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle178 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle179 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle180 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle181 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle182 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle183 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle184 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle185 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle186 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle187 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle188 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle189 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle190 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle191 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "3.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle192 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle193 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle194 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle195 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle196 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle197 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle198 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle199 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle200 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle201 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle202 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle203 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle204 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle205 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle206 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle207 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "4.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle208 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle209 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle210 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle211 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle212 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle213 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle214 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle215 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle216 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle217 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle218 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle219 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle220 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle221 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle222 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle223 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "5.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle224 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle225 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle226 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle227 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle228 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle229 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle230 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle231 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle232 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle233 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle234 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle235 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle236 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle237 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle238 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle239 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "6.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle240 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "-7.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle241 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "-6.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle242 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "-5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle243 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "-4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle244 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "-3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle245 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "-2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle246 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "-1.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle247 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "-0.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle248 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "0.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle249 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "1.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle250 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "2.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle251 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "3.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle252 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "4.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle253 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "5.5*D_macro"
+properties.Width = "W_macro_bit1"
+properties.Depth = "W_macro_bit1"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle254 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "6.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle255 = application.Project.Contents.Geometry:AddRectangle(properties)
+
+-- AddRectangle
+properties = cf.Rectangle.GetDefaultProperties()
+properties.DefinitionMethod = cf.Enums.RectangleDefinitionMethodEnum.BaseAtCentre
+properties.Origin.U = "7.5*D_macro"
+properties.Origin.V = "7.5*D_macro"
+properties.Width = "W_macro_bit0"
+properties.Depth = "W_macro_bit0"
+properties.LocalWorkplane.WorkplaneDefinitionOption = cf.Enums.LocalWorkplaneDefinitionEnum.UsePredefinedWorkplane
+globalXY = application.Project.Definitions.Workplanes:Item("Global XY")
+properties.LocalWorkplane.ReferencedWorkplane = globalXY
+rectangle256 = application.Project.Contents.Geometry:AddRectangle(properties)
+

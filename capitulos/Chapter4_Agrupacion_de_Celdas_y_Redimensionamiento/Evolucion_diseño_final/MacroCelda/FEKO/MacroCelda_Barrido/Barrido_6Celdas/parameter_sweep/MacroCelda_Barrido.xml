@@ -1,0 +1,219 @@
+
+<parameter_sweep>
+  <settings>
+    <sweep_type>lin</sweep_type>
+    <frequency_properties config='StandardConfiguration1' numfreq='1' type='Single'/>
+  </settings>
+  <file>
+    <variable name='W_macro' value='0.004'/>
+    <path>parameter_sweep\MacroCelda_Barrido_01</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.00425'/>
+    <path>parameter_sweep\MacroCelda_Barrido_02</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.0045'/>
+    <path>parameter_sweep\MacroCelda_Barrido_03</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.00475'/>
+    <path>parameter_sweep\MacroCelda_Barrido_04</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.005'/>
+    <path>parameter_sweep\MacroCelda_Barrido_05</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.00525'/>
+    <path>parameter_sweep\MacroCelda_Barrido_06</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.0055'/>
+    <path>parameter_sweep\MacroCelda_Barrido_07</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.00575'/>
+    <path>parameter_sweep\MacroCelda_Barrido_08</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.006'/>
+    <path>parameter_sweep\MacroCelda_Barrido_09</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.00625'/>
+    <path>parameter_sweep\MacroCelda_Barrido_10</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.0065'/>
+    <path>parameter_sweep\MacroCelda_Barrido_11</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.00675'/>
+    <path>parameter_sweep\MacroCelda_Barrido_12</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.007'/>
+    <path>parameter_sweep\MacroCelda_Barrido_13</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.00725'/>
+    <path>parameter_sweep\MacroCelda_Barrido_14</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.0075'/>
+    <path>parameter_sweep\MacroCelda_Barrido_15</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.00775'/>
+    <path>parameter_sweep\MacroCelda_Barrido_16</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.008'/>
+    <path>parameter_sweep\MacroCelda_Barrido_17</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.00825'/>
+    <path>parameter_sweep\MacroCelda_Barrido_18</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.0085'/>
+    <path>parameter_sweep\MacroCelda_Barrido_19</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.00875'/>
+    <path>parameter_sweep\MacroCelda_Barrido_20</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.009'/>
+    <path>parameter_sweep\MacroCelda_Barrido_21</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.00925'/>
+    <path>parameter_sweep\MacroCelda_Barrido_22</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.0095'/>
+    <path>parameter_sweep\MacroCelda_Barrido_23</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.00975'/>
+    <path>parameter_sweep\MacroCelda_Barrido_24</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01'/>
+    <path>parameter_sweep\MacroCelda_Barrido_25</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01025'/>
+    <path>parameter_sweep\MacroCelda_Barrido_26</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.0105'/>
+    <path>parameter_sweep\MacroCelda_Barrido_27</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01075'/>
+    <path>parameter_sweep\MacroCelda_Barrido_28</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.011'/>
+    <path>parameter_sweep\MacroCelda_Barrido_29</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01125'/>
+    <path>parameter_sweep\MacroCelda_Barrido_30</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.0115'/>
+    <path>parameter_sweep\MacroCelda_Barrido_31</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01175'/>
+    <path>parameter_sweep\MacroCelda_Barrido_32</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.012'/>
+    <path>parameter_sweep\MacroCelda_Barrido_33</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01225'/>
+    <path>parameter_sweep\MacroCelda_Barrido_34</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.0125'/>
+    <path>parameter_sweep\MacroCelda_Barrido_35</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01275'/>
+    <path>parameter_sweep\MacroCelda_Barrido_36</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.013'/>
+    <path>parameter_sweep\MacroCelda_Barrido_37</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01325'/>
+    <path>parameter_sweep\MacroCelda_Barrido_38</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.0135'/>
+    <path>parameter_sweep\MacroCelda_Barrido_39</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01375'/>
+    <path>parameter_sweep\MacroCelda_Barrido_40</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.014'/>
+    <path>parameter_sweep\MacroCelda_Barrido_41</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01425'/>
+    <path>parameter_sweep\MacroCelda_Barrido_42</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.0145'/>
+    <path>parameter_sweep\MacroCelda_Barrido_43</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01475'/>
+    <path>parameter_sweep\MacroCelda_Barrido_44</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.015'/>
+    <path>parameter_sweep\MacroCelda_Barrido_45</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01525'/>
+    <path>parameter_sweep\MacroCelda_Barrido_46</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.0155'/>
+    <path>parameter_sweep\MacroCelda_Barrido_47</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01575'/>
+    <path>parameter_sweep\MacroCelda_Barrido_48</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.016'/>
+    <path>parameter_sweep\MacroCelda_Barrido_49</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01625'/>
+    <path>parameter_sweep\MacroCelda_Barrido_50</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.0165'/>
+    <path>parameter_sweep\MacroCelda_Barrido_51</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.01675'/>
+    <path>parameter_sweep\MacroCelda_Barrido_52</path>
+  </file>
+  <file>
+    <variable name='W_macro' value='0.017'/>
+    <path>parameter_sweep\MacroCelda_Barrido_53</path>
+  </file>
+</parameter_sweep>

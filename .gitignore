@@ -1,0 +1,14 @@
+# Resultados generados por FEKO (se regeneran desde el modelo)
+*.bof
+*.afo
+*.str
+*.out
+*.bak
+*.lock
+runfeko_tmp_*
+# Autoguardados de MATLAB
+*.asv
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
